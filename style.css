@@ -1,0 +1,47 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #363030;
+
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Ubuntu', sans-serif; */
+}
+
+.wrapper {
+    width: 500px;
+    margin: auto;
+    background-color: #efef55;
+    text-align: center;
+    padding: 55px;
+    margin-top: 110px;
+    border-radius: 40px;
+}
+
+.wrapper:hover {
+    box-shadow: 5px 5px 15px 20px #111110;
+}
+
+.btn {
+    font-size: 25px;
+    width: 90px;
+    padding: 6px;
+    margin: 5px;
+    border-radius: 6px;
+    background: none;
+    border: 1px solid black;
+    color: black;
+    
+}
+
+.btn:hover {
+    background-color: rgb(12, 12, 12);
+    border: 1px solid yellow;
+    color: yellow;
+}
+
+
+p {
+    font-size: 35px;
+}
